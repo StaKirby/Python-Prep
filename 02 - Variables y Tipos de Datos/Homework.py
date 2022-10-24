@@ -1,7 +1,4 @@
 #1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
-from cmath import pi
-
-
 variable1 = 1
 print('1):', variable1)
 
@@ -22,7 +19,7 @@ variable4 = 1 + 1j
 print('6):', type(variable4))
 
 #7) Crear una variable que contenga el valor del número Pi redondeado a 4 decimales
-variable5 = round(pi, 4)
+variable5 = 3.1415
 
 #8) Crear una variable que contenga el valor 'True' y otra que contenga el valor True. ¿Se trata de lo mismo?
 variable6 = 'True'
