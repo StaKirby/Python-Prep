@@ -93,8 +93,8 @@ uno, dos, tres, *_= numeros
 print(uno, dos, tres)
 
 # 23) Crear un diccionario utilizando la lista crada en el punto 1, asignandole la clave "ciudad". Agregar tambien otras claves, como puede ser "Pais" y "Continente".
-diccionario = {"ciudad": ciudades, 
-"gaston": ["AOE2", "CS1.6", "Terraria"], 
+diccionario = {"Ciudad": ciudades, 
+"Gaston": ["AOE2", "CS1.6", "Terraria"], 
 "Facu": ["PES", "Wow", "CSGO"]}
 
 # 24) Imprimir las claves del diccionario
