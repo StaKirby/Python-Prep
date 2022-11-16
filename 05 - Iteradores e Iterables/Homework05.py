@@ -31,8 +31,9 @@ for i, j in enumerate(negativos[:3]):
 
 # 6) Dada la siguiente lista de números enteros entre 1 y 20, crear un ciclo donde se completen los valores faltantes: lista = [1,2,5,7,8,10,13,14,15,17,20]
 lista = [1,2,5,7,8,10,13,14,15,17,20]
+ultimo = lista[len(lista)-1]
 
-for i in range(1, lista.pop() + 1):
+for i in range(1, ultimo):
     if not i in lista:
         lista.insert(i - 1, i)
         print(f"se inserto el {i}")
@@ -42,7 +43,7 @@ print(lista)
 # 7) La sucesión de Fibonacci es un listado de números que sigue la fórmula: <br>
 # n<sub>0</sub> = 0<br>
 # n<sub>1</sub> = 1<br>
-# n<sub>i</sub> = n<sub>i-1</sub> + n<sub>i-2</sub><br>
+# n<sub>i</sub> = n<sub>i-1</sub> + n<sub>i-2</sub><br> 
 # Crear una lista con los primeros treinta números de la sucesión.<br>
 fibo = [0, 1]
 cant = 30
